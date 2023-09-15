@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "limitedlife",
+  "version": "1.19.3-1.0",
+  "name": "Limited Life",
+  "description": "",
+  "authors": [
+    "DAQEM"
+  ],
+  "contact": {
+    "homepage": "https://daqem.com/",
+    "sources": "https://github.com/DAQEM/LimitedLife"
+  },
+  "license": "MIT",
+  "icon": "assets/limitedlife/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.daqem.limitedlife.fabric.LimitedLifeFabric"
+    ]
+  },
+  "mixins": [
+    "limitedlife.mixins.json",
+    "limitedlife-common.mixins.json"
+  ],
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.19.3",
+    "architectury": ">=7.0.66"
+  }
+}

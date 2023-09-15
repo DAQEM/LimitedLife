@@ -1,0 +1,9 @@
+{
+  "limitedlife.out_of_time": "%s is out of time!",
+  "limitedlife.boogeyman_fail": "The Boogeyman has failed to kill someone!",
+  "limitedlife.not_boogeyman": "NOT the Boogeyman.",
+  "limitedlife.boogeyman": "The Boogeyman.",
+  "limitedlife.about_to_elect_boogeyman": "The Boogeyman is about to be chosen.",
+  "limitedlife.you_are": "You are...",
+  "limitedlife.one_minute_till_boogeyman": "The Boogeyman is being chosen in 1 minute."
+}

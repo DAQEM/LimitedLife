@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "[44,)"
+#issueTrackerURL = ""
+license = "MIT"
+
+[[mods]]
+modId = "limitedlife"
+version = "1.19.3-1.0"
+displayName = "Limited Life"
+authors = "DAQEM"
+description = '''
+
+'''
+#logoFile = ""
+
+[[dependencies.limitedlife]]
+modId = "forge"
+mandatory = true
+versionRange = "[44,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.limitedlife]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.19.3,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.limitedlife]]
+modId = "architectury"
+mandatory = true
+versionRange = "[7.0.66,)"
+ordering = "AFTER"
+side = "BOTH"
